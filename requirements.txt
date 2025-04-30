@@ -1,0 +1,7 @@
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+mediapipe>=0.10.0
+tensorflow==2.13.0  # Versão específica do TensorFlow
+tf-keras          # Necessário para o RetinaFace
+deepface>=0.0.79
+moviepy>=1.0.3 

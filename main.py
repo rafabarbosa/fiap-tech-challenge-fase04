@@ -2,10 +2,13 @@ import cv2
 import numpy as np
 from deepface import DeepFace
 import mediapipe as mp
-import time
 from collections import defaultdict
 
 class ActivityDetector:
+    """
+    Classe responsável por detectar diferentes tipos de atividades físicas
+    baseadas nos pontos de referência do corpo detectados pelo MediaPipe.
+    """
     def __init__(self):
         self.activities = {
             'standing': self.is_standing,
@@ -60,6 +63,10 @@ class ActivityDetector:
         return 'unknown'
 
 class VideoAnalyzer:
+    """
+    Classe principal para análise de vídeo que integra detecção facial,
+    análise de emoções, detecção de poses e atividades, e geração de relatórios.
+    """
     def __init__(self, video_path):
         self.video_path = video_path
         self.mp_face_detection = mp.solutions.face_detection

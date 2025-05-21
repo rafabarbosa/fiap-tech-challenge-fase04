@@ -46,3 +46,9 @@ sabendo-se que podemos enfrentar alguns desafions quando trabalhamos com diferen
 
 - O relatório será apresentado no final da execução do script.
 - No vídeo de saída, você poderá ver todo processamento que foi realizado no vídeo, juntamente com os elementos necessários para realizar o reconhecimento fácil e emoções das pessoas no vídeo.
+
+## Integrantes do Grupo
+
+- Arilson Florencio Pereira Filho
+- Pablo Jose Ribeiro do Carmo
+- Rafael Barbosa Conceição
